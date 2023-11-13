@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <title>Stretches Log</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/ea19d3d339.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header text-center">
+        <h1><span class="fa fa-anchor"></span>Today's Stretches</h1>
+        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm-7">
+          <h3>Suggested Stretch</h3>
+          <p>Enter a book into the library demoday. Book status and condition can be edited.</p>
+
+          <h2>Enter a mobility focus</h2>
+        <% if (user.local.email) { %>
+
+          <img href='https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.healthline.com%2Fhealth%2Fshoulder-mobility-exercises&media=https%3A%2F%2Fmedia.post.rvohealth.io%2Fwp-content%2Fuploads%2F2023%2F08%2F400x400_Top_Shoulder_Exercises_to_Relieve_Pain_Doorway_Stretch.gif&description=Shoulder%20Mobility%20Exercises%20and%20Stretches%20with%20Pictures' alt="" id="img1">
+
+
+          <form action="/demoday/bodyfocus" method="POST" id="focus-form">
+            <h3>Which body part do you want to focus on today?</h3>
+            <select name="focus" id="focus" value='' required>
+              <option value="" selected disabled>Please choose a body part</option>
+              <option value="shoulder">Shoulder</option>
+              <option value="neck">Neck</option>
+              <option value="back">Back</option>
+            </select>
+            <button class="submit" type="submit">Submit</button>
+          </form>
+        </div>
+        <% } %>
+      </div>
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+}
+img{
+  height: 200px;
+}
+
+.col-sm-7 {
+  width: 100%;
+}
+
+.hidden{
+  display: none;
+}
+
+.remove-default{
+  display: inline-block;
+}
