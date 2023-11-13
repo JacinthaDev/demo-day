@@ -1,5 +1,8 @@
 # Posture Pal
 
+<img width="955" alt="login" src="https://github.com/JacinthaDev/demo-day/assets/129231721/9127023f-1b57-4b89-83b6-259f6c2dcd25">
+
+<img width="630" alt="homepage" src="https://github.com/JacinthaDev/demo-day/assets/129231721/4ad487d1-994c-4a59-ba99-7fcc91c25c40">
 
 
 # About this project
