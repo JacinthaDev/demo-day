@@ -6,14 +6,6 @@ img{
   height: 200px;
 }
 
-.col-sm-7 {
-  width: 100%;
-}
-
 .hidden{
   display: none;
-}
-
-.remove-default{
-  display: inline-block;
 }

@@ -10,11 +10,11 @@
 }
 
 .div2{
-background-image: url('../public/img/reverse-arm-stretch.png');
+background-image: url('/img/reverse-arm-stretch.png');
 }
 
 .div3{
-    background-image: url('../public/img/behind-head-stretch.png')
+    background-image: url('/img/behind-head-stretch.png')
 }
 
 .add-a-focus{
